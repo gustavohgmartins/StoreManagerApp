@@ -1,0 +1,14 @@
+@StoreManager_HostAddress = http://localhost:5002
+
+# POST {{StoreManager_HostAddress}}/api/store
+# Accept: application/json
+# Content-Type: application/json
+
+# {
+#     "Name": "Store A",
+#     "Location": "New York",
+#     "CompanyId": "b2234ce8-1546-4d84-94e5-142077d47617"
+# }
+
+GET {{StoreManager_HostAddress}}/api/store
+###
